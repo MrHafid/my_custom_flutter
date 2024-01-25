@@ -2,7 +2,7 @@
 
 A collection of Login Screens, Buttons, Loaders and Widgets with attractive UIs, built with Flutter, ready to be used in your applications.
 
-###### Last Update: Added SlideListView Widget
+###### Last Update: Added Widget Refresh Widget
 
 ## Screenshots And Usage
 
