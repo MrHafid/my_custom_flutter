@@ -3,6 +3,7 @@ import 'dart:math';
 
 /// -----------------------------------
 /// Develop by Mr Hafid - MIT Licensed
+/// Licensed : https://raw.githubusercontent.com/MrHafid/my_custom_flutter/main/LICENSE
 /// Website : https://mrhafid.my.id
 /// Github : https://github.com/mrhafid
 /// ------------------------------------
