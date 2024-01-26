@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dot_type.dart';
 
+/// -----------------------------------
+/// Develop by Mr Hafid - MIT Licensed
+/// Licensed : https://raw.githubusercontent.com/MrHafid/my_custom_flutter/main/LICENSE
+/// Website : https://mrhafid.my.id
+/// Github : https://github.com/mrhafid
+/// ------------------------------------
+
 class ColorLoader4 extends StatefulWidget {
 
   final Color dotOneColor;
