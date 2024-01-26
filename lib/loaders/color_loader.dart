@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+/// -----------------------------------
+/// Develop by Mr Hafid - MIT Licensed
+/// Licensed : https://raw.githubusercontent.com/MrHafid/my_custom_flutter/main/LICENSE
+/// Website : https://mrhafid.my.id
+/// Github : https://github.com/mrhafid
+/// ------------------------------------
+
 class ColorLoader extends StatefulWidget {
   final List<Color>? colors;
   final Duration? duration;
