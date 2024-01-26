@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+/// -----------------------------------
+/// Develop by Mr Hafid - MIT Licensed
+/// Website : https://mrhafid.my.id
+/// Github : https://github.com/mrhafid
+/// ------------------------------------
+
 class ColorLoader2 extends StatefulWidget {
   final Color color1;
   final Color color2;
