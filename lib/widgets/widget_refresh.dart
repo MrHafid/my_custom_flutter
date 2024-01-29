@@ -15,17 +15,23 @@ class WidgetRefresh extends StatefulWidget {
   final bool appBar;
   final SliverAppBar? sliverAppBar;
   final Future Function() onRefresh;
-  final GlobalKey<RefreshIndicatorState> refreshIndicatorKey;
+  final GlobalKey<RefreshIndicatorState>? refreshIndicatorKey;
+  // final GlobalKey<LiquidPullToRefreshState>? refreshIndicatorLiquidKey;
+  final Color backgroundColor;
   final Widget childAdapter;
   final bool isIos;
+  final bool isLiquid;
   const WidgetRefresh(
       {super.key,
       this.appBar = false,
       this.sliverAppBar,
-      required this.refreshIndicatorKey,
+      this.refreshIndicatorKey,
+      // this.refreshIndicatorLiquidKey,
+      this.backgroundColor = Colors.blue,
       required this.onRefresh,
       required this.childAdapter,
-      this.isIos = true});
+      this.isIos = true,
+      this.isLiquid = false});
 
   @override
   _WidgetRefreshState createState() => _WidgetRefreshState();
@@ -66,4 +72,15 @@ class _WidgetRefreshState extends State<WidgetRefresh> {
                 )
               ],
       );
+
+    // Widget buildLiquidWidtet() => LiquidPullToRefresh(
+    //     // backgroundColor: widget.backgroundColor,
+    //     color: widget.backgroundColor,
+    //     springAnimationDurationInMilliseconds: 400,
+    //     animSpeedFactor: 2.0,
+    //     key: widget.refreshIndicatorLiquidKey, // key if you want to add
+    //     onRefresh: widget.onRefresh, // refresh callback
+    //     showChildOpacityTransition: false,
+    //     child: widget.childAdapter, // scroll view
+    //   );
 }
