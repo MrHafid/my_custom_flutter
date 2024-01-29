@@ -3,7 +3,7 @@ import 'dart:async';
 
 /// -----------------------------------
 /// Develop by Mr Hafid - MIT Licensed
-/// Licensed : https://raw.githubusercontent.com/MrHafid/my_custom_flutter/main/LICENSE
+/// Licensed : https://go.mrhafid.my.id/mrlicense
 /// Website : https://mrhafid.my.id
 /// Github : https://github.com/mrhafid
 /// ------------------------------------
