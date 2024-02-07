@@ -1,4 +1,12 @@
+
 import 'package:flutter/material.dart';
+
+/// -----------------------------------
+/// Develop by Mr Hafid - MIT Licensed
+/// Licensed : https://go.mrhafid.my.id/mrlicense
+/// Website : https://mrhafid.my.id
+/// Github : https://github.com/mrhafid
+/// ------------------------------------
 
 class Background extends StatelessWidget {
   final String type;
