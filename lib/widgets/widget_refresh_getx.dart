@@ -24,6 +24,7 @@ class WidgetRefresh extends StatelessWidget {
       this.isShadow = false,
       this.loaderColor = Colors.white,
       this.backgroundColor = Colors.blue,
+      this.heightLoader,
       this.loaderWidget,
       this.refreshIndicatorLiquidKey});
   final bool isIos;
@@ -42,6 +43,7 @@ class WidgetRefresh extends StatelessWidget {
   final Widget? loaderWidget;
   final Color backgroundColor;
   final Color loaderColor;
+  final double? heightLoader;
   final GlobalKey<LiquidPullRefreshState>? refreshIndicatorLiquidKey;
 
   @override
@@ -86,11 +88,12 @@ class WidgetRefresh extends StatelessWidget {
               ],
       );
 
-  Widget buildLiquidWidget() => LiquidPullRefresh(
+   Widget buildLiquidWidget() => LiquidPullRefresh(
         backgroundColor: loaderColor,
         // animSpeedFactor: 2.0,
         color: backgroundColor,
         heightLoader: 150,
+        height: heightLoader,
         bottomShaddow: isShadow,
         // showDroplet: true,
         loaderWidget: loaderWidget,
