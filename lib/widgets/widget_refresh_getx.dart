@@ -3,6 +3,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:liquid_pull_refresh/liquid_pull_refresh.dart';
 
+/// Key Liquid Ex
+/// final GlobalKey<LiquidPullRefreshState> refreshIndicatorKey = GlobalKey<LiquidPullRefreshState>();
+///
+
 class WidgetRefresh extends StatelessWidget {
   const WidgetRefresh(
       {super.key,
