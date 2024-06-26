@@ -1,3 +1,4 @@
+
 enum DType {
   @Deprecated("Use effective dart version 'info' ")
 
@@ -78,12 +79,14 @@ showMyDialog(
     Alignment alignment = Alignment.center,
     String textOke = 'Oke',
     String textCancel = 'Cancel',
+    Color? btnOkColor,
+    Color? btnCancelColor,
     hideDuration,
     cancelBtn,
     okBtn,
     Function(String)? dismissCallback}) {
   return AwesomeDialog(
-    context: GlobalVariable.navState.currentContext!,
+    context: Get.context!,
     dialogType: dialogType == DType.info
         ? DialogType.info
         : dialogType == DType.warning
@@ -127,10 +130,13 @@ showMyDialog(
     btnOkOnPress: okBtn,
     btnOkText: textOke,
     btnCancelText: textCancel,
+    btnOkColor: btnOkColor,
+    btnCancelColor: btnCancelColor,
     autoHide: hideDuration,
     alignment: alignment,
   ).show();
 }
+
 
 // Dim Dialog
 DimLoadingDialog progressDimDialog =
