@@ -113,6 +113,8 @@ showMyDialog(
         ? (type) {
             if (type == DismissType.btnOk) {
               dismissCallback('ok');
+            } else if (type == DismissType.autoHide) {
+              dismissCallback('ok');
             } else {
               dismissCallback('cancel');
             }
